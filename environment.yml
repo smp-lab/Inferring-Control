@@ -1,0 +1,27 @@
+# install with conda env create -f environment.yml
+# update with conda env update -f environment.yml
+name: 'sensorimotor'
+channels:
+  - conda-forge
+  - pytorch
+  - districtdatalabs
+  - anaconda
+  - plotly
+  - defaults
+dependencies:
+  - python==3.12
+  - ipykernel
+  - pandas
+  - matplotlib
+  - plotly
+  - scikit-learn
+  - torchvision
+  - pytorch
+  - seaborn
+  - yellowbrick
+  - umap-learn
+  - pip
+  - pip:
+      - torch-summary
+      - mglearn
+      - kaleido
